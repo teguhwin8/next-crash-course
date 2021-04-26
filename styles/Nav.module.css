@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  background: #000;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+.navbar li {
+
+  list-style: none;
+}
+
+.navbar li a {
+  color: rgb(228, 228, 228);
+  margin-right: 14px;
+  transition: .3s all;
+}
+
+.navbar li a:hover {
+  color: #fff;
+}
