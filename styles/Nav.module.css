@@ -1,21 +1,25 @@
+.bgDark {
+  background-color: #000;
+}
+
 .navbar {
   display: flex;
-  background: #000;
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px 14px;
+  padding: 1.2rem;
   margin: 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .navbar li {
-
   list-style: none;
 }
 
 .navbar li a {
   color: rgb(228, 228, 228);
-  margin-right: 14px;
+  margin-right: 2rem;
   transition: .3s all;
 }
 
