@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <Meta title="About Page" />
-      <h1>About Pagesdfs</h1>
+      <h1>About Pages</h1>
     </div>
   )
 }
